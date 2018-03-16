@@ -1,0 +1,28 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "A web app that lets users view and leave comments on the latest news by using Mongoose and Cheerio muscles to scrape news from another site. Dependencies: express, express-handlebars, mongoose, body-parser, cheerio and request",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dewinurdin/mongo-scraper.git"
+  },
+  "author": "Dewi Nurdin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dewinurdin/mongo-scraper/issues"
+  },
+  "homepage": "https://github.com/Dewinurdin/mongo-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0"
+  }
+}

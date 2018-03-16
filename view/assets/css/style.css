@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html { 
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+}
+a.navbar-brand {
+  font-size: 35px;
+}
+
+a.nav-link {
+  font-size: 25px;
+}
+
+#wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  background-image: url("../images/coffeePaper.jpg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2{
+  font-size: 60px;
+  color: white;
+}
+
+.container-fluid {
+    
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+#notes {
+  float: right;
+  width: 30%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #FCF5C7;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+ /*Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
